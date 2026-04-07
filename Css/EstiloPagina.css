@@ -1,0 +1,42 @@
+﻿body {
+    margin:0;
+    text-align:center;
+    background-color:darkred;
+}
+header img{
+    width:500px;
+}
+header {
+    position: relative;
+    top: -40px;
+}
+.masterColor {
+    color:red;
+}
+footer{
+    margin-top:40%;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:40px;
+    justify-content: center;
+    padding-left:1px;
+}
+nav a {
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI Emoji';
+}
+#login{
+    padding-left:75%;
+    padding-top: 40px;
+}
+#login button{
+    background-color:khaki;
+    font-weight: bold;
+    color:black;
+}
+
