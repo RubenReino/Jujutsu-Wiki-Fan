@@ -1,7 +1,11 @@
-﻿body {
-    margin:0;
+﻿
+body {
     text-align:center;
     background-color:darkred;
+}
+html, body{
+    height: 100%;
+    margin:0;
 }
 header img{
     width:500px;
@@ -10,11 +14,17 @@ header {
     position: relative;
     top: -40px;
 }
+main{
+    flex: 1;
+}
 .masterColor {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     color:red;
 }
 footer{
-    margin-top:40%;
+    padding: 10px;
 }
 nav ul{
     list-style:none;
