@@ -48,5 +48,15 @@ nav a {
     background-color:khaki;
     font-weight: bold;
     color:black;
+}@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 8px;
+  }
 }
 
