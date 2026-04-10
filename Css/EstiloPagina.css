@@ -9,28 +9,35 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-
+    
 }
 
 body {
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775832696/JJK_Wallpapaper_1_zpebg0.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    
+}
+.login {
+    position: absolute;
+    top:50px;
+    left: 82%;
 }
 
+.login button {
+    background-color: #f5e6a3;
+    font-weight: bold;
+    color: black;
+}
+
+
 header img {
-    width: 100%;
-    max-width: 1000px;
+    width: 80%;
+    max-width: 800px;
 }
 
 header {
     font-family: 'Noto Sans JP', sans-serif;
-    position: relative;
-    top: -100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+    padding-bottom: 5%;
 }
 
 header h1 {
@@ -41,9 +48,6 @@ header h1 {
     font-style: italic;
 }
 
-footer {
-    padding: 10px;
-}
 
 nav ul {
     position: relative;
@@ -52,7 +56,7 @@ nav ul {
     display: flex;
     gap: 40px;
     justify-content: center;
-
+    
 }
 
 nav a {
@@ -63,16 +67,29 @@ nav a {
 
 }
 
-
-#login {
-    text-align: right;
-    padding: 20px;
+.contenedor1 {
+    position: relative;
+  display: inline-block;
 }
 
-#login button {
-    background-color: #f5e6a3;
-    font-weight: bold;
-    color: black;
+.contenedor1 img {
+  height: auto;
+}
+
+.titulo {
+  position: absolute;
+  top: 50%;              
+  left: 50%;
+  transform: translate(-50%, -50%);
+writing-mode: vertical-rl; 
+text-orientation: upright;
+letter-spacing: -5px; 
+padding-right:44px;
+}
+
+
+.ofoda{
+    width: 500px;
 }
 
 .galeria {
@@ -82,7 +99,11 @@ nav a {
     flex-wrap: wrap;
 }
 
+footer {
+    padding: 10px;
+}
 @media (max-width: 768px) {
+
 
     html,
     body {
@@ -91,35 +112,39 @@ nav a {
         background-position: center;
         background-attachment: fixed;
     }
-
-    body {
-        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775832423/JJK_Wallpaper_2_hizjxc.png");
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-
-    #ofoda {
-
-        width: 200px;
-    }
-
-    .galeria img {
-        width: 250px;
-    }
-
-    nav ul {
-        top: -60px;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px
-    }
-
-    header img {
-        margin-top:40px;
+        .login {
+    top:40px;
+    left: 40%;
+}
+        header img {
+        margin-top:60px;
         padding-bottom:25px;
     width: 100%;
     max-width: 1000px;
 }
+    nav ul {
+        top: -30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px
+    }
+    .ofoda {
+
+        width: 200px;
+    }.titulo{
+  position: absolute;
+  top: 50%;              
+  left: 50%;
+  transform: translate(-50%, -52%);
+writing-mode: vertical-rl; 
+text-orientation: upright;
+letter-spacing: -3px; 
+padding-right:20px;
+font-size: 14px
+}
+
+      .galeria img {
+        width: 250px;
+    }
 
 }
