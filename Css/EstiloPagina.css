@@ -1,11 +1,4 @@
-﻿@media (max-width: 768px) {
-
-    body{
-        background-image: url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775792623/1_13101_eqandx.webp") !important;
-        
-        }
-}
-html,
+﻿html,
 body {
     height: 100%;
     margin: 0;
@@ -15,8 +8,8 @@ body {
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
-    
+
+
 }
 
 body {
@@ -57,7 +50,7 @@ nav ul {
     display: flex;
     gap: 40px;
     justify-content: center;
-    padding-left: 1px;
+
 }
 
 nav a {
@@ -65,7 +58,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     color: white;
-    
+
 }
 
 
@@ -79,9 +72,41 @@ nav a {
     font-weight: bold;
     color: black;
 }
+
 .galeria {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        background-image: url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775824586/jujutsubase_3_1_emrowu.jpg");
+
+    }
+
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775824586/jujutsubase_3_1_emrowu.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #ofoda {
+
+        width: 200px;
+    }
+
+    .galeria img {
+        width: 250px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px
+    }
+
 }
