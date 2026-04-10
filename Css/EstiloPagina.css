@@ -1,8 +1,9 @@
-﻿@media (max-width: 850px) {
+﻿@media (max-width: 768px) {
 
     body{
-    background: red;
-    }
+        background-image: url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775792623/1_13101_eqandx.webp") !important;
+        
+        }
 }
 html,
 body {
