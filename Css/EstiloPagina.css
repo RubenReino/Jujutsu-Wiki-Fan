@@ -28,6 +28,12 @@ body {
         font-size: 20px;
         top: -40px;
     }
+    body{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775745700/jujutsu-kaisen-sengaku-soran-4k-wz_eykdhe.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
 }
 
 body {
