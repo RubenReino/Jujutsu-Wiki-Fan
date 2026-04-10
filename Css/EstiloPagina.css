@@ -1,4 +1,10 @@
-﻿html,
+﻿@media (max-width: 768px) {
+
+    body{
+    background: red;
+    }
+}
+html,
 body {
     height: 100%;
     margin: 0;
@@ -77,10 +83,4 @@ nav a {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-}
-@media (max-width: 768px) {
-
-    body{
-    background: red !important;
-    }
 }
