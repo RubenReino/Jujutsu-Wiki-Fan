@@ -4,8 +4,9 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: rgb(2, 32, 46);
-    background-image: url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775745700/jujutsu-kaisen-sengaku-soran-4k-wz_eykdhe.jpg");
-    background-size: 100%;
+    background-image: url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775832696/JJK_Wallpapaper_1_zpebg0.png");
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -14,8 +15,9 @@ body {
 
 body {
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775745700/jujutsu-kaisen-sengaku-soran-4k-wz_eykdhe.jpg");
-    background-size: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775832696/JJK_Wallpapaper_1_zpebg0.png");
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -84,13 +86,16 @@ nav a {
 
     html,
     body {
-        background-image: url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775824586/jujutsubase_3_1_emrowu.jpg");
-
+        background-image: url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775832423/JJK_Wallpaper_2_hizjxc.png");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
 
     body {
-        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775824586/jujutsubase_3_1_emrowu.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ddkeznwic/image/upload/v1775832423/JJK_Wallpaper_2_hizjxc.png");
         background-size: cover;
+        background-position: center;
         background-attachment: fixed;
     }
 
@@ -104,9 +109,17 @@ nav a {
     }
 
     nav ul {
+        top: -60px;
         flex-direction: column;
         align-items: center;
-        gap: 20px
+        gap: 10px
     }
+
+    header img {
+        margin-top:40px;
+        padding-bottom:25px;
+    width: 100%;
+    max-width: 1000px;
+}
 
 }
