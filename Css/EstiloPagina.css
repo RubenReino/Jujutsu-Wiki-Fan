@@ -11,6 +11,34 @@ body {
 
 
 }
+/* Ajustes para pantallas pequeñas (celulares) */
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Se ajusta mejor en móvil */
+        background-position: center;
+    }
+
+    header img {
+        width: 90%; /* Que ocupe casi todo el ancho del celular */
+    }
+
+    header h1 {
+        font-size: 20px; /* Texto más pequeño para que no se desborde */
+        top: -40px; /* Ajustar posición */
+    }
+
+    nav ul {
+        flex-direction: column; /* Menú en columna para móvil */
+        gap: 15px;
+        top: 0;
+    }
+
+    #login {
+        padding-left: 0; /* Quitar el 75% que rompe en móvil */
+        text-align: center;
+        padding-top: 20px;
+    }
+}
 
 body {
     text-align: center;
