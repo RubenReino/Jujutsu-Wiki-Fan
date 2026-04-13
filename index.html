@@ -13,7 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Noto+Sans+JP:wght@400;700&display=swap"
         rel="stylesheet" />
-
+    <script src="script/script.js" defer></script>
 </head>
 
 <body>
@@ -28,14 +28,16 @@
         <h1>Explora personajes, técnicas y el sistema de poder del mundo jujutsu</h1>
         <nav>
             <ul>
-                <li><a href="index.html#Inicio">Inicio</a></li>
-                <li><a href="Personajes.html#Personaje">Personajes</a></li>
-                <li><a href="Tecnicas.html#Tecnicas">Tecnicas</a></li>
-                <li><a href="Mundo.html#Mundo">Mundo</a></li>
-                <li><a href="Galeria.html#Galeria">Galeria</a></li>
-                <li><a href="Contacto.html#Contacto">Contacto</a></li>
+                <li><a href="#Inicio" id="inicio1" onclick="mostrarSection('Inicio')">Inicio</a></li>
+                <li><a href="#Personajes" onclick="mostrarSection('Personajes')">Personajes</a></li>
+                <li><a href="#Tecnicas" onclick="mostrarSection('Tecnicas')">Tecnicas</a></li>
+                <li><a href="#Mundo" onclick="mostrarSection('Mundo')">Mundo</a></li>
+                <li><a href="#Galeria" onclick="mostrarSection('Galeria')">Galeria</a></li>
+                <li><a href="#Contacto" onclick="mostrarSection('Contacto')">Contacto</a></li>
             </ul>
         </nav>
+        <audio id="audioInicio"
+            src="https://res.cloudinary.com/ddkeznwic/video/upload/v1776037799/videoplayback_mp3cut.net_bfr4av.m4a"></audio>
     </header>
     <main>
 
@@ -55,6 +57,82 @@
                     <br>
                     <br>Bienvenido al mundo del Jujutsu.
                 </p>
+            </div>
+        </section>
+
+        <section id="Personajes">
+            <div class="contenedor1">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775923196/banner_seccion_jgv99r.png"
+                    alt="Especial" class="ofoda">
+                <h1 class="Seccion">Personajes</h1>
+            </div>
+            <div class="contenedor1">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775767255/Talisman_japon%C3%A9s_de_estilo_antiguo_1_rseoyx.png"
+                    alt="Especial" class="ofoda">
+                <h1 class="titulo">ESPECIAL</h1>
+            </div>
+
+            <div class="galeria">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775661882/satoru_tnknpf.jpg" alt="fotos">
+            </div>
+        </section>
+
+        <section id="Tecnicas">
+            <div class="contenedor1">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775923196/banner_seccion_jgv99r.png"
+                    alt="Especial" class="ofoda">
+                <h1 class="Seccion">Tecnicas</h1>
+            </div>
+            <div class="contenedor2">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775851960/Talisman_japon%C3%A9s_envejecido_con_sellos_1_y9asui.png"
+                    alt="clase especial" class="ofoda1">
+                <p class="historia1">Coming soon</p>
+            </div>
+        </section>
+
+        <section id="Mundo">
+            <div class="contenedor1">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775923196/banner_seccion_jgv99r.png"
+                    alt="Especial" class="ofoda">
+                <h1 class="Seccion">Mundo</h1>
+            </div>
+            <div class="contenedor2">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775851960/Talisman_japon%C3%A9s_envejecido_con_sellos_1_y9asui.png"
+                    alt="clase especial" class="ofoda1">
+                <p class="historia1">Coming soon</p>
+            </div>
+        </section>
+
+        <section id="Galeria">
+            <div class="contenedor1">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775923196/banner_seccion_jgv99r.png"
+                    alt="Especial" class="ofoda">
+                <h1 class="Seccion">Galeria</h1>
+            </div>
+            <div class="contenedor2">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775851960/Talisman_japon%C3%A9s_envejecido_con_sellos_1_y9asui.png"
+                    alt="clase especial" class="ofoda1">
+                <p class="historia1">De momento puedes descargar este fondo de pantalla <br>
+                    <br>Descargar para Celular: <a
+                        href="https://res.cloudinary.com/ddkeznwic/image/upload/v1775832423/JJK_Wallpaper_2_hizjxc.png"
+                        download="Jjk-Fondo-Cel">Download</a>
+                    <br>Descargar para PC: <a
+                        href="https://res.cloudinary.com/ddkeznwic/image/upload/v1775832696/JJK_Wallpapaper_1_zpebg0.png"
+                        download="Jjk-Fondo-PC">Download</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="Contacto">
+            <div class="contenedor1">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775923196/banner_seccion_jgv99r.png"
+                    alt="Especial" class="ofoda">
+                <h1 class="Seccion">Contacto</h1>
+            </div>
+            <div class="contenedor2">
+                <img src="https://res.cloudinary.com/ddkeznwic/image/upload/v1775851960/Talisman_japon%C3%A9s_envejecido_con_sellos_1_y9asui.png"
+                    alt="clase especial" class="ofoda1">
+                <p class="historia1">Coming soon</p>
             </div>
         </section>
     </main>
