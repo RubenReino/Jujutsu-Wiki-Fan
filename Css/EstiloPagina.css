@@ -178,7 +178,7 @@ footer {
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-        animation: moverFondo 60s linear infinite;
+        animation: moverFondo 15s linear infinite;
 
     }
 

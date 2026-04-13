@@ -4,7 +4,7 @@ Proyecto web inspirado en el universo de Jujutsu, donde se recopila información
 
 ##  Ver página
 
- https://rubenreino.github.io/Jujutsu-Wiki-Fan/
+ https://rubenreino.github.io/Jujutsu-Wiki-Fan/index.html
 
 ##  Características
 
