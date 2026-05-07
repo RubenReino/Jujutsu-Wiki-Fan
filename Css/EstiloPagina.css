@@ -110,6 +110,8 @@ main {
 }
 
 .titulo {
+    
+    font-size: 32px;
     transform: translate(-50%, -50%);
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -133,11 +135,38 @@ main {
     width: 900px;
 }
 
-.galeria {
+.personaje {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+}
+.fondo{
+    height: 470px;
+    background-repeat:no-repeat;
+    background-size: 265px;
+    background-position: 55px 83px;
+}
+
+.NombrePersonaje{
+    font-size: 25px;
+    color: #4e0303;
+    font-family: 'MS Mincho', serif;
+    position: relative;
+    top: -76%;
+    left: 14%;
+
+}
+.datosPersonaje{
+
+    font-size: 22px;
+    text-align:left;
+    line-height: 1.6;
+    color: #4e0303;
+    font-family: 'MS Mincho', serif;
+    position: relative;
+    top: -80%;
+    left: 46%;
 }
 
 .redes a {
@@ -222,10 +251,36 @@ footer {
         font-size: 20px;
     }
 
-    .galeria img {
-        width: 250px;
+    .personaje img {
+        width: 300px;
     }
 
+    .fondo{
+    height: 230px;
+    background-repeat:no-repeat;
+    background-size: 114px;
+    background-position: 35px 35px;
+    }
+.NombrePersonaje{
+    font-size: 13px;
+    color: #4e0303;
+    font-family: 'MS Mincho', serif;
+    position: relative;
+    top: -70%;
+    left: 14%;
+
+}
+.datosPersonaje{
+
+    font-size: 9.3px;
+    text-align:left;
+    line-height: 1.6;
+    color: #4e0303;
+    font-family: 'MS Mincho', serif;
+    position: relative;
+    top: -73.5%;
+    left: 46%;
+}
     .ofoda1 {
         padding-top: 100px;
         width: 400px;
